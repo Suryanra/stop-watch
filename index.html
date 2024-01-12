@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    font-size: 2rem;
+}
+        .container{
+            width:100vw;
+            height:100vh;
+            
+            background-color: blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        span{
+            padding:10px;
+        }
+
+        #div1{
+        width:170px;
+        height:150px;
+        background-color: aqua;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-top-right-radius: 30%;
+        border-top-left-radius: 30%;
+        position:sticky;
+        border:2px solid black;
+        border-collapse:collapse;
+        }
+        #div2{
+        width:170px;
+        height:40px;
+        border:2px solid black;
+        background-color: yellow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position:sticky;
+        }
+.ti{
+    width:50px;
+    height:60px;
+    background-color: white;
+    border:1px solid black;
+    box-sizing: border-box;
+    margin:2px;
+}
+
+    </style>
+</head>
+
+<body>
+<div class="container">
+<div class="originalcontainer">
+
+    <div id="div1"> 
+    <span id="idh" class="ti">00</span>
+    <span id="idm" class="ti">00</span>
+    <span id="ids" class="ti">00</span>
+    </div>
+    <div class="originalcontainer1"></div>
+    <div id="div2" >
+        <button onclick="start()">start</button>
+        <button  onclick="stop()">stop</button>
+    </div>
+        
+    
+    </div>
+
+</div>
+  
+
+
+
+    <script src="stopwatch.js">
+
+    </script>
+</body>
+</html>
